@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -i ^[Aa-Zz] /etc/sshsshd_config
+grep -i '^[[:upper:]]\|^[[:lower:]]' /etc/sshsshd_config
